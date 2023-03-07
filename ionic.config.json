@@ -1,0 +1,7 @@
+{
+  "name": "MoneepLive",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
