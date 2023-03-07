@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "android": "ionic capacitor copy android && ionic capacitor run android -l --external",
+    "prepare": "ionic capacitor copy android",
+    "android": "ionic capacitor run android -l --external",
     "ios": "ionic capacitor open ios",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -19,6 +20,7 @@
     "@capacitor/ios": "4.7.0",
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
+    "@ionic/cli": "6",
     "@ionic/vue": "^6.0.0",
     "@ionic/vue-router": "^6.0.0",
     "core-js": "^3.6.5",
